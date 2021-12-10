@@ -4,7 +4,15 @@ import createSchema from "part:@sanity/base/schema-creator";
 // Then import schema types from any plugins that might expose them
 import schemaTypes from "all:part:@sanity/base/schema-type";
 
-import plant from "./documents/plant";
+import kingdom from "./documents/kingdom";
+import clade from "./documents/clade";
+import division from "./documents/division";
+import klass from "./documents/class";
+import order from "./documents/order";
+import family from "./documents/family";
+import genus from "./documents/genus";
+import species from "./documents/species";
+import namelang from "./types/namelang";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -14,6 +22,16 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     /* documents */
-    plant,
+    kingdom,
+    clade,
+    division,
+    klass,
+    order,
+    family,
+    genus,
+    species,
+
+    /* types */
+    namelang,
   ]),
 });
