@@ -11,5 +11,10 @@ export default {
       title: "Family name",
       type: "string",
     },
+    {
+      name: "familyPL",
+      title: "Rodzina",
+      type: "string",
+    },
   ],
 };

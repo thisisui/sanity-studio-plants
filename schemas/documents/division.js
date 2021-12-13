@@ -11,5 +11,10 @@ export default {
       title: "Division name",
       type: "string",
     },
+    {
+      name: "divisionPL",
+      title: "Gromada",
+      type: "string",
+    },
   ],
 };

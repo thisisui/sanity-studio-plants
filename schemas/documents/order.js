@@ -11,5 +11,10 @@ export default {
       title: "Order name",
       type: "string",
     },
+    {
+      name: "orderPL",
+      title: "Rząd",
+      type: "string",
+    },
   ],
 };

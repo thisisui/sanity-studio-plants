@@ -11,5 +11,10 @@ export default {
       title: "Kingdom name",
       type: "string",
     },
+    {
+      name: "kingdomPL",
+      title: "Królestwo",
+      type: "string",
+    },
   ],
 };

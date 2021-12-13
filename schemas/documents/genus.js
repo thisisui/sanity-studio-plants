@@ -11,5 +11,10 @@ export default {
       title: "Genus name",
       type: "string",
     },
+    {
+      name: "genusPL",
+      title: "Rodzaj",
+      type: "string",
+    },
   ],
 };

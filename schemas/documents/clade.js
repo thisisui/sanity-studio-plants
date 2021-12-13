@@ -11,5 +11,10 @@ export default {
       title: "Clade name",
       type: "string",
     },
+    {
+      name: "cladePL",
+      title: "Klad",
+      type: "string",
+    },
   ],
 };

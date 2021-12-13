@@ -11,5 +11,10 @@ export default {
       title: "Class name",
       type: "string",
     },
+    {
+      name: "classPL",
+      title: "Klasa",
+      type: "string",
+    },
   ],
 };
